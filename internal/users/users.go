@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/pkg/db/database"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/pkg/db/database"
 	"golang.org/x/crypto/bcrypt"
 )
 

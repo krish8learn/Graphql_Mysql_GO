@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/pkg/jwtLogin"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/users"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/pkg/jwtLogin"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/users"
 )
 
 var userCtxKey = &contextKey{"user"}

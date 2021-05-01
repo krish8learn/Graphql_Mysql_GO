@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/krish8learn/Graphql_Postgress_GO/graph/generated"
-	"github.com/krish8learn/Graphql_Postgress_GO/graph/model"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/auth"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/links"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/pkg/jwtLogin"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/users"
+	"github.com/krish8learn/Graphql_Mysql_GO/graph/generated"
+	"github.com/krish8learn/Graphql_Mysql_GO/graph/model"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/auth"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/links"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/pkg/jwtLogin"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/users"
 )
 
 func (r *mutationResolver) CreateLink(ctx context.Context, input model.NewLink) (*model.Link, error) {

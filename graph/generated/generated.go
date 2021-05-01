@@ -12,7 +12,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/krish8learn/Graphql_Postgress_GO/graph/model"
+	"github.com/krish8learn/Graphql_Mysql_GO/graph/model"
 	gqlparser "github.com/vektah/gqlparser"
 	"github.com/vektah/gqlparser/ast"
 )

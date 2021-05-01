@@ -3,8 +3,8 @@ package links
 import (
 	"log"
 
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/pkg/db/database"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/users"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/pkg/db/database"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/users"
 )
 
 type Link struct {

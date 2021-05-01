@@ -8,10 +8,10 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/go-chi/chi"
-	"github.com/krish8learn/Graphql_Postgress_GO/graph"
-	"github.com/krish8learn/Graphql_Postgress_GO/graph/generated"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/auth"
-	"github.com/krish8learn/Graphql_Postgress_GO/internal/pkg/db/database"
+	"github.com/krish8learn/Graphql_Mysql_GO/graph"
+	"github.com/krish8learn/Graphql_Mysql_GO/graph/generated"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/auth"
+	"github.com/krish8learn/Graphql_Mysql_GO/internal/pkg/db/database"
 )
 
 const defaultPort = "8080"
